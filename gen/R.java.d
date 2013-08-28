@@ -1,0 +1,23 @@
+/home/matias/NetBeansProjects/pill/gen/com/pill/pill_in/R.java \
+ : /home/matias/NetBeansProjects/pill/res/layout/main.xml \
+/home/matias/NetBeansProjects/pill/res/drawable-ldpi/icon.png \
+/home/matias/NetBeansProjects/pill/res/drawable-ldpi/ic_launcher.png \
+/home/matias/NetBeansProjects/pill/res/drawable/icon.png \
+/home/matias/NetBeansProjects/pill/res/drawable-xhdpi/icon.png \
+/home/matias/NetBeansProjects/pill/res/drawable-xhdpi/ic_launcher.png \
+/home/matias/NetBeansProjects/pill/res/drawable-hdpi/icon.png \
+/home/matias/NetBeansProjects/pill/res/drawable-hdpi/ic_launcher.png \
+/home/matias/NetBeansProjects/pill/res/values/strings.xml \
+/home/matias/NetBeansProjects/pill/res/xml/config.xml \
+/home/matias/NetBeansProjects/pill/res/drawable-mdpi/icon.png \
+/home/matias/NetBeansProjects/pill/res/drawable-mdpi/ic_launcher.png \
+/home/matias/NetBeansProjects/pill/bin/res/drawable-ldpi/icon.png \
+/home/matias/NetBeansProjects/pill/bin/res/drawable-ldpi/ic_launcher.png \
+/home/matias/NetBeansProjects/pill/bin/res/drawable/icon.png \
+/home/matias/NetBeansProjects/pill/bin/res/drawable-xhdpi/icon.png \
+/home/matias/NetBeansProjects/pill/bin/res/drawable-xhdpi/ic_launcher.png \
+/home/matias/NetBeansProjects/pill/bin/res/drawable-hdpi/icon.png \
+/home/matias/NetBeansProjects/pill/bin/res/drawable-hdpi/ic_launcher.png \
+/home/matias/NetBeansProjects/pill/bin/res/drawable-mdpi/icon.png \
+/home/matias/NetBeansProjects/pill/bin/res/drawable-mdpi/ic_launcher.png \
+/home/matias/NetBeansProjects/pill/bin/AndroidManifest.xml \

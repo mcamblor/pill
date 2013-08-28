@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="js/webDB.js" type="text/javascript"></script>
+<script src="js/iscroll.js" type="text/javascript"></script>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/cordova.js" type="text/javascript"></script>
+
+
+
+
+</head> 
+<body onload="init()">
+
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Pill-In</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Administrador Alarma</a></li>
+            <li><a href="#page3">Stock</a></li>
+			<li><a href="#page4">Calendario</a></li>
+     		<li><a href="#page4">Configuraciones</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Administrar Alarmas</h1>
+	</div>
+	<div data-role="content">	
+   	 <ul data-role="listview">
+			<li><a href="#page5">Crear Alarma</a></li>
+            <li><a href="#page6">Modificar Alarma</a></li>
+			<li><a href="#page7">Eliminar Alarma</a></li>
+		</ul>    
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Page Three</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Page Four</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>Crear Alarma</h1>
+	</div>
+	<div data-role="content">	
+		<div id="newalarmas">
+	       Crear Nueva Alarma<br/>
+	       Tratamiento: <input type="text" id="tratamiento"/><br/>
+	       Medicamento: <input type="text" id="medicamento"/><br/>
+	       Dosis Doctor: <input type="text" id="dosis_doc"/><br/>
+	       Dosis Comprada: <input type="text" id="dosis_com"/><br/>
+	       Fecha Inicio: <input type="date" id="fecha_inicio"/><br/>
+	       Fecha Termino: <input type="date" id="fecha_termino"/><br/>
+	       Hora Inicio: <input type="time" id="hora_inicio"/><br/>
+	       <button onclick="addAlarmas(tratamiento.value, medicamento.value, dosis_doc.value, dosis_com.value, fecha_inicio.value, fecha_termino.value, hora_inicio.value)">Crear Alarma</button>
+        </div>	
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="page6">
+	<div data-role="header">
+		<h1>Modificar Alarma</h1>
+	</div>
+	<div data-role="content">            
+        <div id="modificar"><button onclick="listarModificar()">Listar</button></div>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="page7">
+	<div data-role="header">
+		<h1>Eliminar Alarma</h1>
+	</div>
+	<div data-role="content">            
+        <div id="eliminar"><button onclick="listarEliminar()">Listar</button></div>              
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+</body>
+</html>
